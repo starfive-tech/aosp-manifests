@@ -109,7 +109,7 @@
   <project name="platform/bionic" path="bionic" revision="4d3903eab966db68e3faf603bac74d5031839b2d" upstream="main" dest-branch="main" groups="pdk"/>
   <project name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="44624d522fc60a27ccb414cd68fb59950e341c07" upstream="main" dest-branch="main" groups="vts,pdk"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="d52bdb8eaeb21ba761ca63628e34f551593c463f" upstream="main" dest-branch="main" groups="pdk"/>
-  <project name="platform/build" path="build/make" revision="46909b41103ae5bf6cbfe7c3a6b3151886a0894c" upstream="main" dest-branch="main" groups="pdk">
+  <project name="platform/build" path="build/make" revision="5da26c0ab39fffe99effb1e02305395a8f4eebff" upstream="main" dest-branch="main" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
