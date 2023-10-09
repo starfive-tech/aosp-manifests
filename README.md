@@ -38,3 +38,22 @@ Sync to download the source code.
 ```
 $ repo sync
 ```
+
+
+# Apply Workaround
+Credits to Peter Yoon, the owner of [android-riscv-v](https://github.com/android-risc-v/device_arv_jh7110) repo.
+[Disable zbs and Vector extension.](https://github.com/android-risc-v/device_arv_jh7110/wiki/arv-master-:-framework-patch#disable-zbs--vector)
+[Revive TARGET_FLATTEN_APEX.](https://github.com/android-risc-v/device_arv_jh7110/wiki/arv-master-:-framework-patch#revive-target_flatten_apex)
+
+
+
+# Building AOSP source code
+
+```
+$ cd aosp
+$ source build/envsetup.sh
+$ lunch jh7110-eng
+$ make ramdisk systemimage vendorimage
+```
+
+
