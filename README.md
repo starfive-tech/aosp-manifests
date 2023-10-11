@@ -31,7 +31,7 @@ $ repo init -u https://github.com/starfive-tech/aosp-manifests.git -m default.xm
 
 Clone the local manifest file for device specific source code.
 ```
-$ git clone http://github.com/starfive-tech/starfive-manifests.git .repo/local_manifests -b jh7110-android14-v1.0
+$ git clone http://github.com/starfive-tech/starfive-manifests.git .repo/local_manifests -b main
 ```
 
 Sync to download the source code.
